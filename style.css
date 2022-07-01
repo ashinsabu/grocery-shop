@@ -1,0 +1,247 @@
+/* CSS RESET */  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+.search-box-container{
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image: url("assets/images/wheat.png");
+    background-position: -3200px -600px;
+    background-size: 500%;
+}
+
+.header{
+    background-color: #FFFF;
+    height: 81px;
+    box-shadow: 0px 3px 6px rgba(41,41,41,.25);
+    display: flex;
+    align-items: center;
+    
+    padding-left: 64px;
+}
+#header-logo{
+    height: 64px;
+}
+.navbar-links{
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    gap: 32px;
+    
+}
+
+.navbar-links>a{
+    color: #B1825C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.navbar-links>a.active{
+    color: #6E4A35;
+    font-weight: bold;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-container{
+    position: relative;
+    margin-top: 32px;
+}
+#search{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 20px;
+    color: #6E4A35;
+    border: transparent;
+    outline: transparent;
+}
+.total-amount{
+    font-size:24px;
+    font-weight: 700;
+    color: #6E4A35;
+}
+.shopping-area{
+    display:grid;
+    grid-template-columns: 400px 700px;
+    margin-top: 32px;
+}
+.categories-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding-top: 8px;
+}
+.category-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.category{
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #6E4A35;
+
+    font-size: 24px;
+    font-weight: 700;
+    color: #6E4A35;
+    font-family: SegoeUI-Bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    background-color: #E6E5E6;
+    border-radius: 22px;
+
+    width: 284px;
+    height: 69px;
+}
+.category-container.active {
+    border-right: 4px solid #6E4A35;
+}
+.category-container.active > .category{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+}
+.items-column{
+    text-align: center;
+}
+.item{
+    
+    display: flex;
+    gap: 22px;
+    border: 2px solid #8B6E5D;
+    margin: 16px;
+    padding: 16px 32px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.item-info{
+    width: 171px;
+}
+.item-info > h2{
+    font-family: SegoeUI-Bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    color: #6E4A35;
+}
+.item-info > p{
+    
+    font-size:18px;
+    font-weight: 700;
+    color: #6E4A35;
+}
+.reduceqty-btn, .increaseqty-btn{
+    cursor: pointer;
+    font-family: SegoeUI-Bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), 
+                0 2px 4px rgb(0 0 0 / 5%),
+                0 4px 8px rgb(0 0 0 / 5%), 
+                0 8px 16px rgb(0 0 0 / 5%), 
+                0 16px 32px rgb(0 0 0 / 5%), 
+                0 32px 64px rgb(0 0 0 / 5%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 1.6px solid #8B6E5D;
+    border-radius: 10px;
+    font-size: 45px;
+    font-weight: 100;
+    color: #836452;
+}
+.reduceqty-btn,.increaseqty-btn{
+    padding-bottom: 8px;
+}
+
+.qty-controls{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.qty{
+    color: #6E4A35;
+    font-size: 22px;
+    font-weight: bolder;
+    width: 56px;
+    padding: 6px 4px;
+    border: transparent;
+    outline: none;
+    border-radius: 10px;
+    background-color: #ECECEC;
+    text-align: center;
+}
+.qty:focus{
+    outline: transparent;
+    border: transparent;
+}
+.kg-unit-btn, .g-unit-btn{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    color: #6E4A35;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), 
+        0 2px 4px rgb(0 0 0 / 5%),
+        0 4px 8px rgb(0 0 0 / 5%), 
+        0 8px 16px rgb(0 0 0 / 5%), 
+        0 16px 32px rgb(0 0 0 / 5%), 
+        0 32px 64px rgb(0 0 0 / 5%);
+}
+.kg-unit-btn.active, .g-unit-btn.active{
+    border: 1px solid #6E4A35;
+}
+.add-item-btn{
+    font-family: SegoeUI-Bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    background-color: #6E4A35;
+    border-radius: 16px;
+    width: 72px;
+    height: 32px;
+    border: transparent;
+    outline: transparent;
+    color: white;
+    font-size: 13px;
+}

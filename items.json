@@ -1,0 +1,52 @@
+ 
+[
+    {
+        "id": 1,
+        "name": "Single Grain Atta",
+        "type": "atta",
+        "priceperkg" : 100
+    },
+    {
+        "id": 2,
+        "name": "Raggi Atta",
+        "type": "atta",
+        "priceperkg" : 100
+    },
+    {
+        "id": 3,
+        "name": "Channa Atta",
+        "type": "atta",
+        "priceperkg" : 100
+    },
+    {
+        "id": 4,
+        "name": "Multi Grain Atta",
+        "type": "atta",
+        "priceperkg" : 100
+    },
+    {
+        "id": 5,
+        "name": "Millets",
+        "type": "millets",
+        "priceperkg" : 100
+    },
+    {
+        "id": 6,
+        "name": "Pure Cow Ghee",
+        "type": "gheeoil",
+        "priceperkg" : 800
+    },
+    {
+        "id": 7,
+        "name": "Raisins",
+        "type": "dryfruits",
+        "priceperkg" : 200
+    },
+    {
+        "id": 8,
+        "name" : "Almonds",
+        "type": "dryfruits",
+        "priceperkg" :300
+    }
+
+]
