@@ -1,52 +1,170 @@
  
 [
     {
-        "id": 1,
-        "name": "Single Grain Atta",
+        "name": "MP Sharabati",
+        "type": "atta",
+        "priceperkg" : 45
+    },
+    {
+        "name": "MP Grade 2",
+        "type": "atta",
+        "priceperkg" : 42
+    },
+    {
+        "name": "Soyabean Atta",
+        "type": "atta",
+        "priceperkg" : 145
+    },
+    {
+        "name": "Chana Atta",
         "type": "atta",
         "priceperkg" : 100
     },
     {
-        "id": 2,
-        "name": "Raggi Atta",
+        "name": "Ragi Atta",
         "type": "atta",
-        "priceperkg" : 100
+        "priceperkg" : 90
     },
     {
-        "id": 3,
-        "name": "Channa Atta",
+        "name": "Oats Atta",
         "type": "atta",
-        "priceperkg" : 100
+        "priceperkg" : 220
     },
     {
-        "id": 4,
-        "name": "Multi Grain Atta",
+        "name": "Makka Atta",
         "type": "atta",
-        "priceperkg" : 100
+        "priceperkg" : 55
     },
     {
-        "id": 5,
-        "name": "Millets",
-        "type": "millets",
-        "priceperkg" : 100
+        "name" : "Bajra Atta",
+        "type": "atta",
+        "priceperkg" :55
     },
     {
-        "id": 6,
-        "name": "Pure Cow Ghee",
+        "name" : "Sooji",
+        "type": "spices",
+        "priceperkg" :70
+    },
+    {
+        "name" : "Dalia",
+        "type": "spices",
+        "priceperkg" :130
+    },
+    {
+        "name" : "Besan",
+        "type": "spices",
+        "priceperkg" :60
+    },
+    {
+        "name" : "California Almond",
+        "type": "dryfruits",
+        "priceperkg" :1060
+    },
+    {
+        "name" : "Premium walnut",
+        "type": "dryfruits",
+        "priceperkg" :1800
+    },
+    {
+        "name" : "Premium Cashew",
+        "type": "dryfruits",
+        "priceperkg" :1300
+    },
+    {
+        "name" : "Premium Raisins",
+        "type": "dryfruits",
+        "priceperkg" :1000
+    },
+    {
+        "name" : "Desi Ghee",
         "type": "gheeoil",
-        "priceperkg" : 800
+        "priceperkg" :550
     },
     {
-        "id": 7,
-        "name": "Raisins",
-        "type": "dryfruits",
-        "priceperkg" : 200
+        "name" : "Mustard Oil Black",
+        "type": "gheeoil",
+        "priceperkg" :256
     },
     {
-        "id": 8,
-        "name" : "Almonds",
-        "type": "dryfruits",
-        "priceperkg" :300
+        "name" : "Mustard Oil Yellow",
+        "type": "gheeoil",
+        "priceperkg" :250
+    },
+    {
+        "name" : "Rice(Karnal)",
+        "type": "rice",
+        "priceperkg" :90
+    },
+    {
+        "name" : "Rice(Dehradun)",
+        "type": "rice",
+        "priceperkg" :90
+    },
+    {
+        "name" : "Rice(Basmati)",
+        "type": "rice",
+        "priceperkg" :65
+    },
+    {
+        "name" : "Millets (Little)",
+        "type": "millets",
+        "priceperkg" :100
+    },
+    {
+        "name" : "Millets(Kudo)",
+        "type": "millets",
+        "priceperkg" :100
+    }
+    ,
+    {
+        "name" : "Millets(Barnyard)",
+        "type": "millets",
+        "priceperkg" :100
+    },
+    {
+        "name" : "Amla Murabba",
+        "type": "murabba",
+        "priceperkg" :307
+    },
+    {
+        "name" : "Mix Murabba",
+        "type": "murabba",
+        "priceperkg" :250
+    },
+    {
+        "name" : "Devbumi(Organic)",
+        "type": "honey",
+        "priceperkg" :850
+    },
+    {
+        "name" : "Devbhumi(Pahari)",
+        "type": "honey",
+        "priceperkg" :580
+    },
+    {
+        "name" : "Tea Girnar (CTC Leaf)",
+        "type": "tea",
+        "priceperkg" :360
+    },
+    {
+        "name" : "Girnar Coffee",
+        "type": "coffee",
+        "priceperkg" :90
+    },
+    {
+        "name" : "Aam ka Achar",
+        "type": "achar",
+        "priceperkg" :240
+    },
+    {
+        "name" : "Oats Cookies",
+        "type": "cookies",
+        "priceperkg" :392
+    },
+    {
+        "name" : "Rice(Karnal)",
+        "type": "rice",
+        "priceperkg" :90
     }
 
 ]

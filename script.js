@@ -1,5 +1,6 @@
 
 const itemsColumn = document.querySelector('.items-column');
+const cartSection = document.querySelector('.cart');
 var totalAmt = 0;
 
 
@@ -12,7 +13,7 @@ function displayItems(curCategory) {
 
     for(let i=0;i<json.length;i++){
         if(json[i]['type'] == curCategory){
-            console.log(json[i]);
+            // console.log(json[i]);
         //item div created
         const item = document.createElement('div');
         item.className="item";
@@ -107,9 +108,93 @@ function displayItems(curCategory) {
             else{
                 totalAmt+=qty.value * json[i]['priceperkg']/1000;
             }
-            const totalamtdiv = document.querySelector('.total-amount');
-            totalamtdiv.innerHTML = "Total Amount: ₹" + totalAmt.toString();
-                console.log(totalAmt);
+            // const totalamtdiv = document.querySelector('.total-amount');
+            // totalamtdiv.innerHTML = "Total Amount: ₹" + totalAmt.toString();
+
+            //cart item creation
+            const cartItem = document.createElement('div');
+            cartItem.className='cart-item';
+
+            const cartItemName = document.createElement('h3');
+            cartItemName.innerHTML=json[i]['name'];
+
+            // cart quantity div
+            const cartQty = document.createElement('div');
+            cartQty.className='cart-qty';
+
+            const cartqtynum = document.createElement('input');
+            cartqtynum.type = 'number';
+            cartqtynum.value = qty.value;
+            cartqtynum.min = 0;
+
+            cartqtynum.addEventListener('input',() => {
+                if(cartUnit.innerHTML=="KG")
+                    priceArea.innerText=(cartqtynum.value * json[i]['priceperkg']).toString();
+                else{
+                    priceArea.innerText=(cartqtynum.value * json[i]['priceperkg']/1000).toString();
+                }
+                const allcartitems = document.querySelectorAll('.cart-item');
+                totalAmt=0;
+                allcartitems.forEach((thatCartItem) => {
+                    // console.log(thatCartItem.childNodes[3].textContent);
+                    
+                    totalAmt+=parseFloat(thatCartItem.childNodes[3].textContent);
+                    
+                })
+                const totalamtsec = document.querySelector('.totalamtsec');
+                    totalamtsec.innerHTML="Total Amount: Rs. "+totalAmt;
+                // console.log(allcartitems);
+            })
+
+            const cartUnit = document.createElement('div');
+            cartUnit.className='cart-unit';
+
+            if(kgButton.classList.contains("active"))
+                cartUnit.innerHTML='KG';
+            else{
+                cartUnit.innerHTML='G';
+            }
+            cartQty.append(cartqtynum,cartUnit);
+            // end of cart qty div
+            const priceAreaText = document.createElement('span');
+            priceAreaText.innerHTML = "Price: ";
+            const priceArea = document.createElement('p');
+            if(kgButton.classList.contains("active"))
+                priceArea.innerText=(qty.value * json[i]['priceperkg']).toString();
+            else{
+                priceArea.innerText=(qty.value * json[i]['priceperkg']/1000).toString();
+            }
+
+            const deleteButton = document.createElement('button');
+            deleteButton.innerHTML="Delete";
+            
+            cartItem.append(cartItemName,cartQty,priceAreaText,priceArea,deleteButton);
+
+            cartSection.append(cartItem);
+            deleteButton.addEventListener('click',() => {
+                cartItem.remove();
+                const allcartitems = document.querySelectorAll('.cart-item');
+                totalAmt=0;
+                allcartitems.forEach((thatCartItem) => {
+                    // console.log(thatCartItem.childNodes[3].textContent);
+                    
+                    totalAmt+=parseFloat(thatCartItem.childNodes[3].textContent);
+                    
+                })
+                const totalamtsec = document.querySelector('.totalamtsec');
+                    totalamtsec.innerHTML="Total Amount: Rs. "+totalAmt;
+            })
+            const allcartitems = document.querySelectorAll('.cart-item');
+                totalAmt=0;
+                allcartitems.forEach((thatCartItem) => {
+                    // console.log(thatCartItem.childNodes[3].textContent);
+                    
+                    totalAmt+=parseFloat(thatCartItem.childNodes[3].textContent);
+                    
+                })
+                const totalamtsec = document.querySelector('.totalamtsec');
+                    totalamtsec.innerHTML="Total Amount: Rs. "+totalAmt;
+                        
         });
         //appending all to item div
 
@@ -124,16 +209,40 @@ function displayItems(curCategory) {
 }
 
 
-displayItems('atta');
+// displayItems('atta');
+
+const shoppingarea = document.querySelector('.shopping-area');
+shoppingarea.style.display = 'none';
 
 const categoryContainers = document.querySelectorAll('.category-container');
 
 categoryContainers.forEach((categoryContainer) => {
     let category = categoryContainer.childNodes[1];
-    console.log(category);
+    // console.log(category);
     category.addEventListener('click', () => {
         categoryContainers.forEach((x) => x.classList.remove('active'));
         categoryContainer.classList.add('active');
         displayItems(category.dataset.categoryname);
     });
+})
+
+const categSquares = document.querySelectorAll('.atta');
+
+categSquares.forEach((categSquare) => {
+    categSquare.addEventListener('click',() => {
+        displayItems(categSquare.dataset.categ);
+        shoppingarea.style.display = 'grid';
+        const products = document.querySelector('#products');
+        products.style.display = 'none';
+        // console.log(categoryContainers);
+        categoryContainers.forEach((x) => {
+            x.classList.remove('active');
+            // console.log(x.childNodes[1].dataset.categoryname);
+            // console.log(categSquare.dataset.categ);
+            if(x.childNodes[1].dataset.categoryname == categSquare.dataset.categ){
+                x.classList.add('active');
+            }
+        });
+        
+    })
 })
