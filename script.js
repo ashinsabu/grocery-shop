@@ -213,6 +213,8 @@ function displayItems(curCategory) {
 
 const shoppingarea = document.querySelector('.shopping-area');
 shoppingarea.style.display = 'none';
+const topRow = document.querySelector('.top-row');
+topRow.style.display = 'none';
 
 const categoryContainers = document.querySelectorAll('.category-container');
 
@@ -230,6 +232,9 @@ const categSquares = document.querySelectorAll('.atta');
 
 categSquares.forEach((categSquare) => {
     categSquare.addEventListener('click',() => {
+        const billsec = document.querySelector('.billing-section');
+        billsec.style.display = 'none';
+        topRow.style.display = 'flex';
         displayItems(categSquare.dataset.categ);
         shoppingarea.style.display = 'grid';
         const products = document.querySelector('#products');
@@ -245,4 +250,14 @@ categSquares.forEach((categSquare) => {
         });
         
     })
+});
+
+const backToHome = document.querySelector('.back-to-home');
+backToHome.addEventListener('click',() => {
+    shoppingarea.style.display = 'none';
+    const products = document.querySelector('#products');
+    products.style.display = 'block';
+    topRow.style.display = 'none';
+    const billsec = document.querySelector('.billing-section');
+    billsec.style.display = 'grid';
 })
