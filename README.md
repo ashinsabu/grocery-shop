@@ -4,6 +4,9 @@ A SPA grocery shopping page built without the help of ReactJS. (SPA built using 
 
 Minimal usage of anchor tags and new page reloading in order to minimize load times between different features of app.
 
+# view the page
+https://ashinsabu.github.io/grocery-shop/
+
 # customizing list of items
 
 Add any items / products to the json file similarly as previous items are added.
