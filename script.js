@@ -1,6 +1,8 @@
 
 const itemsColumn = document.querySelector('.items-column');
 const cartSection = document.querySelector('.cart');
+const addedtoCartAlert = document.querySelector('.added-alert');
+
 var totalAmt = 0;
 
 
@@ -174,6 +176,11 @@ function displayItems(curCategory) {
                 updateCartTotal();
             })
             updateCartTotal();
+
+            addedtoCartAlert.classList.remove('invisible');
+            setTimeout(function() {
+                addedtoCartAlert.classList.add('invisible')
+            },1500);
                         
         });
         //appending all to item div
@@ -538,7 +545,11 @@ addCustomtocart.addEventListener('click', () => {
         allComponentstodelete.forEach((componentoDelete) => {
             componentoDelete.remove();
             updatePrice();
-        })
+        });
+        addedtoCartAlert.classList.remove('invisible');
+            setTimeout(function() {
+                addedtoCartAlert.classList.add('invisible')
+            },1500);
     }
 });
 

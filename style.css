@@ -417,3 +417,28 @@ body{
     border: transparent;
     padding: 4px 16px;
 }
+
+.added-alert.invisible{
+    transform: scale(0);
+    visibility: hidden;
+}
+.added-alert{
+    position: fixed;
+    bottom: 16px;
+    left: 45%;
+    background-color: #77DD77;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 8px;
+    transform: scale(1);
+    visibility: visible;
+    transition: transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+.line{
+    width: 2px;
+    background-color: white;
+    margin-left: 4px;
+    margin-right: 4px;
+}
