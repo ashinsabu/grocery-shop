@@ -472,6 +472,7 @@ const addCustomtocart = document.querySelector('.add-custom-to-cart');
                     customAttaInfo.className = "custom-atta-info";
 
                     let totalPrice = 0;
+                    let totalWt = 0;
                     allCurrComponents.forEach((currComponent) => {
                         const customComponentName = document.createElement('span');
                         customComponentName.className="custom-component-name";
@@ -479,7 +480,16 @@ const addCustomtocart = document.querySelector('.add-custom-to-cart');
 
                         const customComponentQty = document.createElement('span');
                         customComponentQty.className = "custom-component-qty";
-                        customComponentQty.innerHTML = currComponent.childNodes[1].textContent + " KG";
+                        if(currComponent.childNodes[2].textContent === "KG"){
+                            customComponentQty.innerHTML = currComponent.childNodes[1].textContent + " KG";
+                            totalWt += parseFloat(currComponent.childNodes[1].textContent);
+                        }
+                        else{
+                            customComponentQty.innerHTML = currComponent.childNodes[1].textContent + " G";
+                            totalWt += parseFloat(currComponent.childNodes[1].textContent)/1000;
+                        }
+
+                        
 
                         const customComponentPrice = document.createElement('span');
                         customComponentPrice.className = "custom-component-price";
@@ -494,8 +504,12 @@ const addCustomtocart = document.querySelector('.add-custom-to-cart');
 
                         customAttaInfo.append(cartCustomComponent);
 
-                    })
-                    customInfoContainer.append(H5,customAttaInfo);
+                    });
+                    const totalWeight = document.createElement('span');
+                    totalWeight.className = "custom-component-name";
+                    totalWeight.innerHTML = totalWt.toString() + " KG";
+
+                    customInfoContainer.append(H5,customAttaInfo,totalWeight);
                     
                     //price and delete button
                     const priceText = document.createElement('span');
