@@ -400,7 +400,30 @@ categSquares.forEach((categSquare) => {
                             createdAtta.append(attacomponent);
                             
                             const allComponents = document.querySelectorAll('.atta-component');
-                            const totalwtarea = document.querySelector('.custom-atta-weight');
+                            
+
+                            deleteButton.addEventListener('click',() => {
+                                attacomponent.remove();
+                                updatePrice();
+                            })
+                            updatePrice();
+                            
+                                        
+                        });
+                        //appending all to item div
+                
+                        item.append(itemInfo,qtyControls,kgButton,gButton,addButton);
+                
+                        availableAttas.append(item);
+                
+                
+                        }
+                }
+            });
+        })
+    }
+});
+const totalwtarea = document.querySelector('.custom-atta-weight');
                             const totalpricearea = document.querySelector('.custom-atta-price');
                             
                             const updatePrice = () =>{
@@ -426,114 +449,98 @@ categSquares.forEach((categSquare) => {
 
                             };
 
-                            deleteButton.addEventListener('click',() => {
-                                attacomponent.remove();
-                                updatePrice();
-                            })
-                            updatePrice();
-                            
-                                        
-                        });
-                        //appending all to item div
-                
-                        item.append(itemInfo,qtyControls,kgButton,gButton,addButton);
-                
-                        availableAttas.append(item);
-                
-                
-                        }
-                }
-            });
+const addCustomtocart = document.querySelector('.add-custom-to-cart');
+addCustomtocart.addEventListener('click', () => {
+    const allCurrComponents = document.querySelectorAll('.atta-component');
+    if(allCurrComponents.length > 0){
+        console.log('creatable mix atta');
+        const cartItem = document.createElement('div');
+        cartItem.className='cart-item';
+
+        const H4 = document.createElement('h4');
+        H4.innerHTML="Mix Atta";
+
+        //creating custom info container
+        const customInfoContainer = document.createElement('div');
+        customInfoContainer.className="custom-info-container";
+
+        //creating the H5 and info div for info container
+        const H5 = document.createElement('h5');
+        H5.innerHTML = "Components";
+
+        //custom atta component info list and stuff div
+        const customAttaInfo = document.createElement('div');
+        customAttaInfo.className = "custom-atta-info";
+
+        let totalPrice = 0;
+        let totalWt = 0;
+        allCurrComponents.forEach((currComponent) => {
+            const customComponentName = document.createElement('span');
+            customComponentName.className="custom-component-name";
+            customComponentName.innerHTML = currComponent.childNodes[0].textContent;
+
+            const customComponentQty = document.createElement('span');
+            customComponentQty.className = "custom-component-qty";
+            if(currComponent.childNodes[2].textContent === "KG"){
+                customComponentQty.innerHTML = currComponent.childNodes[1].textContent + " KG";
+                totalWt += parseFloat(currComponent.childNodes[1].textContent);
+            }
+            else{
+                customComponentQty.innerHTML = currComponent.childNodes[1].textContent + " G";
+                totalWt += parseFloat(currComponent.childNodes[1].textContent)/1000;
+            }
+
+            
+
+            const customComponentPrice = document.createElement('span');
+            customComponentPrice.className = "custom-component-price";
+            customComponentPrice.innerHTML = "Price: " + currComponent.childNodes[4].textContent;
+            totalPrice += parseFloat(currComponent.childNodes[4].textContent);
+
+            //creating component div to add all the above and then append to customattainfo div
+
+            const cartCustomComponent = document.createElement('div');
+            cartCustomComponent.className="cart-custom-component";
+            cartCustomComponent.append(customComponentName,customComponentQty,customComponentPrice);
+
+            customAttaInfo.append(cartCustomComponent);
+
+        });
+        const totalWeight = document.createElement('span');
+        totalWeight.className = "custom-component-name";
+        totalWeight.innerHTML = "Total Weight: " + totalWt.toString() + " KG";
+
+        customInfoContainer.append(H5,customAttaInfo,totalWeight);
+        
+        //price and delete button
+        const priceText = document.createElement('span');
+        priceText.innerHTML="Price: ";
+
+        const price = document.createElement('p');
+        price.innerText = totalPrice.toString();
+
+        const delButton = document.createElement('button');
+        delButton.innerHTML="Delete";
+
+        //adding all components to the main div
+        cartItem.append(H4,customInfoContainer,priceText,price,delButton);
+
+        cartSection.append(cartItem);
+
+        delButton.addEventListener('click',() => {
+            cartItem.remove();
+            updateCartTotal();
+        });
+        updateCartTotal();
+
+        //resetting the custom atta creator
+        const allComponentstodelete = document.querySelectorAll('.atta-component');
+        allComponentstodelete.forEach((componentoDelete) => {
+            componentoDelete.remove();
+            updatePrice();
         })
     }
 });
-
-const addCustomtocart = document.querySelector('.add-custom-to-cart');
-            addCustomtocart.addEventListener('click', () => {
-                const allCurrComponents = document.querySelectorAll('.atta-component');
-                if(allCurrComponents.length > 0){
-                    console.log('creatable mix atta');
-                    const cartItem = document.createElement('div');
-                    cartItem.className='cart-item';
-
-                    const H4 = document.createElement('h4');
-                    H4.innerHTML="Mix Atta";
-
-                    //creating custom info container
-                    const customInfoContainer = document.createElement('div');
-                    customInfoContainer.className="custom-info-container";
-
-                    //creating the H5 and info div for info container
-                    const H5 = document.createElement('h5');
-                    H5.innerHTML = "Components";
-
-                    //custom atta component info list and stuff div
-                    const customAttaInfo = document.createElement('div');
-                    customAttaInfo.className = "custom-atta-info";
-
-                    let totalPrice = 0;
-                    let totalWt = 0;
-                    allCurrComponents.forEach((currComponent) => {
-                        const customComponentName = document.createElement('span');
-                        customComponentName.className="custom-component-name";
-                        customComponentName.innerHTML = currComponent.childNodes[0].textContent;
-
-                        const customComponentQty = document.createElement('span');
-                        customComponentQty.className = "custom-component-qty";
-                        if(currComponent.childNodes[2].textContent === "KG"){
-                            customComponentQty.innerHTML = currComponent.childNodes[1].textContent + " KG";
-                            totalWt += parseFloat(currComponent.childNodes[1].textContent);
-                        }
-                        else{
-                            customComponentQty.innerHTML = currComponent.childNodes[1].textContent + " G";
-                            totalWt += parseFloat(currComponent.childNodes[1].textContent)/1000;
-                        }
-
-                        
-
-                        const customComponentPrice = document.createElement('span');
-                        customComponentPrice.className = "custom-component-price";
-                        customComponentPrice.innerHTML = "Price: " + currComponent.childNodes[4].textContent;
-                        totalPrice += parseFloat(currComponent.childNodes[4].textContent);
-
-                        //creating component div to add all the above and then append to customattainfo div
-
-                        const cartCustomComponent = document.createElement('div');
-                        cartCustomComponent.className="cart-custom-component";
-                        cartCustomComponent.append(customComponentName,customComponentQty,customComponentPrice);
-
-                        customAttaInfo.append(cartCustomComponent);
-
-                    });
-                    const totalWeight = document.createElement('span');
-                    totalWeight.className = "custom-component-name";
-                    totalWeight.innerHTML = totalWt.toString() + " KG";
-
-                    customInfoContainer.append(H5,customAttaInfo,totalWeight);
-                    
-                    //price and delete button
-                    const priceText = document.createElement('span');
-                    priceText.innerHTML="Price: ";
-
-                    const price = document.createElement('p');
-                    price.innerText = totalPrice.toString();
-
-                    const delButton = document.createElement('button');
-                    delButton.innerHTML="Delete";
-
-                    //adding all components to the main div
-                    cartItem.append(H4,customInfoContainer,priceText,price,delButton);
-
-                    cartSection.append(cartItem);
-
-                    delButton.addEventListener('click',() => {
-                        cartItem.remove();
-                        updateCartTotal();
-                    });
-                    updateCartTotal();
-
-                }
-            });
 
 const backToHome = document.querySelector('.back-to-home');
 backToHome.addEventListener('click',() => {
