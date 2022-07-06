@@ -286,6 +286,35 @@ body{
     width: 50%;
     padding-left: 16px;
 }
+.cart-item h4{
+    font-size: 20px;
+    width: 15%;
+    padding-left: 16px;
+}
+.custom-info-container{
+    width: 50%;
+}
+.custom-info-container > h5{
+    font-weight: bold;
+}
+.cart-custom-component{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+}
+.custom-component-name{
+    font-weight: bold;
+    width: 40%;
+}
+.custom-component-qty{
+    width: 30%;
+    font-size: 14px;
+}
+.custom-component-price{
+    width: 30%;
+    font-size: 14px;
+}
 .cart-qty{
     display: flex;
     align-items: center;
@@ -295,6 +324,7 @@ body{
 .cart-item > p{
     display: inline;
     width: 5%;
+    overflow: hidden;
 }
 .cart-qty > input {
     
@@ -362,6 +392,10 @@ body{
     text-align: center;
 }
 .custom-atta-info{
+    display:flex;
+    flex-direction: column;
+}
+.custom-atta-info-title{
     display:flex;
 }
 .custom-atta-price{

@@ -9,15 +9,13 @@ function displayItems(curCategory) {
     fetch("./items.json")
     .then(response => response.json())
     .then(json => {
-    // console.log(json);
-
     for(let i=0;i<json.length;i++){
         if(json[i]['type'] == curCategory){
-            // console.log(json[i]);
+        
         //item div created
         const item = document.createElement('div');
         item.className="item";
-
+        
         //item info
         const itemInfo = document.createElement('div');
         itemInfo.className = "item-info";
@@ -143,7 +141,7 @@ function displayItems(curCategory) {
                 })
                 const totalamtsec = document.querySelector('.totalamtsec');
                     totalamtsec.innerHTML="Total Amount: Rs. "+totalAmt;
-                // console.log(allcartitems);
+                    // console.log(allcartitems);
             })
 
             const cartUnit = document.createElement('div');
@@ -173,27 +171,9 @@ function displayItems(curCategory) {
             cartSection.append(cartItem);
             deleteButton.addEventListener('click',() => {
                 cartItem.remove();
-                const allcartitems = document.querySelectorAll('.cart-item');
-                totalAmt=0;
-                allcartitems.forEach((thatCartItem) => {
-                    // console.log(thatCartItem.childNodes[3].textContent);
-                    
-                    totalAmt+=parseFloat(thatCartItem.childNodes[3].textContent);
-                    
-                })
-                const totalamtsec = document.querySelector('.totalamtsec');
-                    totalamtsec.innerHTML="Total Amount: Rs. "+totalAmt;
+                updateCartTotal();
             })
-            const allcartitems = document.querySelectorAll('.cart-item');
-                totalAmt=0;
-                allcartitems.forEach((thatCartItem) => {
-                    // console.log(thatCartItem.childNodes[3].textContent);
-                    
-                    totalAmt+=parseFloat(thatCartItem.childNodes[3].textContent);
-                    
-                })
-                const totalamtsec = document.querySelector('.totalamtsec');
-                    totalamtsec.innerHTML="Total Amount: Rs. "+totalAmt;
+            updateCartTotal();
                         
         });
         //appending all to item div
@@ -206,6 +186,18 @@ function displayItems(curCategory) {
         }
     }
     });   
+}
+const updateCartTotal = () => {
+    const allcartitems = document.querySelectorAll('.cart-item');
+                totalAmt=0;
+                allcartitems.forEach((thatCartItem) => {
+                    console.log(thatCartItem.childNodes[3].textContent);
+                    
+                    totalAmt+=parseFloat(thatCartItem.childNodes[3].textContent);
+                    
+                })
+                const totalamtsec = document.querySelector('.totalamtsec');
+                    totalamtsec.innerHTML="Total Amount: Rs. "+totalAmt;
 }
 
 
@@ -264,14 +256,81 @@ categSquares.forEach((categSquare) => {
             customAttaSection.classList.remove('invisible');
             createdAtta = document.querySelector('.created-atta');
 
-            const addToCart = document.querySelector('.add-custom-to-cart');
-            addToCart.addEventListener('click',() => {
-                
-            });
 
             availableAttas = document.querySelector('.available-attas');
             // console.log(availableAttas);
             availableAttas.innerHTML = "";
+            const addCustomtocart = document.querySelector('.add-custom-to-cart');
+            addCustomtocart.addEventListener('click', () => {
+                const allCurrComponents = document.querySelectorAll('.atta-component');
+                if(allCurrComponents.length > 0){
+                    const cartItem = document.createElement('div');
+                    cartItem.className='cart-item';
+
+                    const H4 = document.createElement('h4');
+                    H4.innerHTML="Mix Atta";
+
+                    //creating custom info container
+                    const customInfoContainer = document.createElement('div');
+                    customInfoContainer.className="custom-info-container";
+
+                    //creating the H5 and info div for info container
+                    const H5 = document.createElement('h5');
+                    H5.innerHTML = "Components";
+
+                    //custom atta component info list and stuff div
+                    const customAttaInfo = document.createElement('div');
+                    customAttaInfo.className = "custom-atta-info";
+
+                    let totalPrice = 0;
+                    allCurrComponents.forEach((currComponent) => {
+                        const customComponentName = document.createElement('span');
+                        customComponentName.className="custom-component-name";
+                        customComponentName.innerHTML = currComponent.childNodes[0].textContent;
+
+                        const customComponentQty = document.createElement('span');
+                        customComponentQty.className = "custom-component-qty";
+                        customComponentQty.innerHTML = currComponent.childNodes[1].textContent + " KG";
+
+                        const customComponentPrice = document.createElement('span');
+                        customComponentQty.className = "custom-component-price";
+                        customComponentQty.innerHTML = "Price: " + currComponent.childNodes[4].textContent;
+                        totalPrice += parseFloat(currComponent.childNodes[4].textContent);
+
+                        //creating component div to add all the above and then append to customattainfo div
+
+                        const cartCustomComponent = document.createElement('div');
+                        cartCustomComponent.className="cart-custom-component";
+                        cartCustomComponent.append(customComponentName,customComponentQty,customComponentPrice);
+
+                        customAttaInfo.append(cartCustomComponent);
+
+                    })
+                    customInfoContainer.append(H5,customAttaInfo);
+                    
+                    //price and delete button
+                    const priceText = document.createElement('span');
+                    priceText.innerHTML="Price: ";
+
+                    const price = document.createElement('p');
+                    price.innerText = totalPrice.toString();
+
+                    const delButton = document.createElement('button');
+                    delButton.innerHTML="Delete";
+
+                    //adding all components to the main div
+                    cartItem.append(H4,customInfoContainer,priceText,price,delButton);
+
+                    cartSection.append(cartItem);
+
+                    delButton.addEventListener('click',() => {
+                        cartItem.remove();
+                        updateCartTotal();
+                    });
+                    updateCartTotal();
+
+                }
+            });
 
             fetch('./items.json')
             .then( response => response.json())
