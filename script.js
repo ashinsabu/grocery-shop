@@ -482,8 +482,8 @@ const addCustomtocart = document.querySelector('.add-custom-to-cart');
                         customComponentQty.innerHTML = currComponent.childNodes[1].textContent + " KG";
 
                         const customComponentPrice = document.createElement('span');
-                        customComponentQty.className = "custom-component-price";
-                        customComponentQty.innerHTML = "Price: " + currComponent.childNodes[4].textContent;
+                        customComponentPrice.className = "custom-component-price";
+                        customComponentPrice.innerHTML = "Price: " + currComponent.childNodes[4].textContent;
                         totalPrice += parseFloat(currComponent.childNodes[4].textContent);
 
                         //creating component div to add all the above and then append to customattainfo div
