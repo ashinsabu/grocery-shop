@@ -236,11 +236,12 @@ categSquares.forEach((categSquare) => {
             const billsec = document.querySelector('.billing-section');
             billsec.style.display = 'none';
             topRow.style.display = 'flex';
+            const products = document.querySelector('#products');
+
             products.style.display = 'none';
 
             displayItems(categSquare.dataset.categ);
             shoppingarea.style.display = 'grid';
-            const products = document.querySelector('#products');
             // console.log(categoryContainers);
             categoryContainers.forEach((x) => {
                 x.classList.remove('active');
@@ -263,8 +264,15 @@ categSquares.forEach((categSquare) => {
             customAttaSection.classList.remove('invisible');
             createdAtta = document.querySelector('.created-atta');
 
+            const addToCart = document.querySelector('.add-custom-to-cart');
+            addToCart.addEventListener('click',() => {
+                
+            });
+
             availableAttas = document.querySelector('.available-attas');
             // console.log(availableAttas);
+            availableAttas.innerHTML = "";
+
             fetch('./items.json')
             .then( response => response.json())
             .then(json =>{
@@ -446,7 +454,7 @@ categSquares.forEach((categSquare) => {
                 
                         }
                 }
-            })
+            });
         })
     }
 });
@@ -459,4 +467,6 @@ backToHome.addEventListener('click',() => {
     topRow.style.display = 'none';
     const billsec = document.querySelector('.billing-section');
     billsec.style.display = 'grid';
+    const customAtta = document.querySelector('.custom-atta');
+    customAtta.classList.add('invisible');
 })
