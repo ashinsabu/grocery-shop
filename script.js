@@ -564,3 +564,49 @@ backToHome.addEventListener('click',() => {
     const customAtta = document.querySelector('.custom-atta');
     customAtta.classList.add('invisible');
 })
+
+
+const addToLocalStorage = () => {
+    const currCartItems = document.querySelectorAll('.cart-item');
+    let cartObj = [];
+    let totalPrice = 0;
+    function Item (name , qty , netPrice, types ){
+        this.itemName = name;
+        this.itemQty = qty;
+        this.itemPrice = netPrice;
+        this.types = types;
+    }
+    currCartItems.forEach((currCartItem) => {
+        // console.log(currCartItem);
+        let types = [];
+        let qty;
+        if(currCartItem.childNodes[1].className == "custom-info-container"){
+            currCartItem.childNodes[1].childNodes[1].childNodes.forEach((customAttaComponent) => {
+                types.push(
+                    customAttaComponent.childNodes[0].textContent + " " + 
+                    customAttaComponent.childNodes[1].textContent + " " + 
+                    customAttaComponent.childNodes[2].textContent);
+                    // +=parseFloat(customAttaComponent.childNodes[1].match(/\b\d+(?:.\d+)?/));
+                    
+            });
+            qty = currCartItem.childNodes[1].childNodes[2].textContent.substring(14);
+        }
+        else{
+            qty = currCartItem.childNodes[1].childNodes[0].value.toString() + " " + currCartItem.childNodes[1].childNodes[1].textContent;
+        }
+        // console.log(types);
+        totalPrice += parseFloat(currCartItem.childNodes[3].textContent);
+        console.log(new Item(currCartItem.childNodes[0].textContent, qty, parseFloat(currCartItem.childNodes[3].textContent), types));
+        cartObj.push(new Item(currCartItem.childNodes[0].textContent, qty, parseFloat(currCartItem.childNodes[3].textContent), types));
+        
+    });
+    // console.log(JSON.stringify(cartObj));
+    localStorage.setItem('cart',JSON.stringify(cartObj));
+    localStorage.setItem('totalPrice',totalPrice.toString());
+
+}
+const orderButton = document.querySelector('.order');
+orderButton.addEventListener('click', () => {
+    addToLocalStorage();
+})
+// types field for custom atta is not empty 

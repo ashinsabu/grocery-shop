@@ -98,7 +98,10 @@
    border-radius: 15px 15px 15px 15px;
    color: #6E4A35;
 }
-
+.order:hover{
+    background-color: white !important;
+    color: #6E4A35;
+}
 .millets{
     border-radius: 15px 15px;
     outline: solid;
