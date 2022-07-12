@@ -1,0 +1,198 @@
+/* CSS RESET */  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    background-image: url("assets/images/wheat.png");
+    background-position: -3200px -600px;
+    background-size: 500%;
+    text-align: center;
+}
+.header{
+    background-color: #FFFF;
+    height: 81px;
+    box-shadow: 0px 3px 6px rgba(41,41,41,.25);
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+    
+}
+.header h2{
+    font-weight: bold;
+    margin-left: 38%;
+}
+.logo{
+    justify-self: flex-start;
+}
+#header-logo{
+    height: 64px;
+}
+.total-orders{
+    background-color: #E6E5E6;
+    box-shadow: 0px 3px 6px rgba(41,41,41,.25);
+    /* margin-top: 64px; */
+    text-align: center;
+    padding: 16px;
+}
+.total-orders h3{
+    display: inline;
+}
+.order-count{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.orders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+#orderstitle{
+    margin: 32px;
+    color: #6E4A35;
+}
+.order{
+    width: 60%;
+    border: 2px solid #6E4A35;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 32px;
+    background-color: #ececec8e;
+}
+.order h2{
+    color: rgb(62, 62, 62);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 12px;
+}
+.order-item{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 32px;
+    align-items: center;
+    margin-left: 8px;
+    padding: 4px;
+    
+}
+.order-item h4{
+    font-size: 16px;
+    width: 25%;
+    padding-left: 16px;
+}
+.custom-info-container{
+    width: 40%;
+}
+.custom-info-container > h5{
+    font-weight: bold;
+}
+.order-custom-component{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+}
+.order-qty{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 40%;
+}
+.order-item > p{
+    display: inline;
+    width: 5%;
+    overflow: hidden;
+}
+
+.order-item button{
+    border-radius: 16px;
+    background-color: #8B6E5D;
+    color: white;
+    border: transparent;
+    padding: 4px 16px;
+}
+.new {
+    padding: 50px;
+  }
+  
+  .form-group {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #0079bf;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    width: 12px;
+    height: 28px;
+    border: solid #0079bf;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) translateX(-4px) translateY(-12px);
+  }
+  .customer-info{
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
+  .field-box{
+    display: inline-block;
+    width: 50%;
+  }
+  .field-title{
+    color: #6E4A35;
+  }
+  .customer-name, 
+  .customer-number1,
+  .customer-number2,
+  .customer-email,
+  .customer-address{
+    font-weight: 600;
+  }
