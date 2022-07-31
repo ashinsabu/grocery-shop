@@ -176,7 +176,7 @@ body{
     height: 28px;
     border: solid #0079bf;
     border-width: 0 2px 2px 0;
-    transform: rotate(45deg) translateX(-4px) translateY(-12px);
+    transform: rotate(45deg) translateX(-4px) translateY(-4px);
   }
   .customer-info{
     margin-left: 8px;
@@ -193,6 +193,21 @@ body{
   .customer-number1,
   .customer-number2,
   .customer-email,
-  .customer-address{
+  .customer-address,
+  .ordered-at,
+  .payment-status{
     font-weight: 600;
+  }
+  #total-order-price{
+    margin-right: 0;
+    margin-top: 8px;
+  }
+  .order-day-selector{
+    margin-bottom: 32px;
+  }
+  .dropdown-item{
+    cursor: pointer;
+  }
+  .invisible{
+    display: none;
   }

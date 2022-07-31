@@ -1,0 +1,1262 @@
+[
+  {
+    "name": "Sooji (Krishidham) (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 38.00",
+    "desc": ""
+  },
+  {
+    "name": "Dalia (Barley) (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 65.00",
+    "desc": ""
+  },
+  {
+    "name": "Dalia  (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 55.00",
+    "desc": ""
+  },
+  {
+    "name": "Maida (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 38.00",
+    "desc": ""
+  },
+  {
+    "name": "Poha  (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 47.50",
+    "desc": ""
+  },
+  {
+    "name": "Besan (500 gm )",
+    "type": "PULSES",
+    "priceperkg": " 60.00",
+    "desc": ""
+  },
+  {
+    "name": "Arhar Dal  (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 80.75",
+    "desc": ""
+  },
+  {
+    "name": "Moong Sabut (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 76.00",
+    "desc": ""
+  },
+  {
+    "name": "Moong Chilka  (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 76.00",
+    "desc": ""
+  },
+  {
+    "name": "Moong Dhuli (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 76.00",
+    "desc": ""
+  },
+  {
+    "name": "Urad Sabut (500 gm )",
+    "type": "PULSES",
+    "priceperkg": " 76.00",
+    "desc": ""
+  },
+  {
+    "name": "Urad Chilka (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 85.50",
+    "desc": ""
+  },
+  {
+    "name": "Urad Dhuli (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 85.50",
+    "desc": ""
+  },
+  {
+    "name": "Masoor Sabut (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Masoor Malka (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Kabuli Channa (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Chana kesari (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 57.00",
+    "desc": ""
+  },
+  {
+    "name": "Chana Dal (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 57.00",
+    "desc": ""
+  },
+  {
+    "name": "Rajma Chitra (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 95.00",
+    "desc": ""
+  },
+  {
+    "name": "Rajma Jammu (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 85.50",
+    "desc": ""
+  },
+  {
+    "name": "Lobia White (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Lobia Lal (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Moth (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Mix Dal (500 gm)",
+    "type": "PULSES",
+    "priceperkg": " 80.75",
+    "desc": ""
+  },
+  {
+    "name": "Dhania Powder (200 gm)",
+    "type": "SPICES",
+    "priceperkg": " 61.75",
+    "desc": ""
+  },
+  {
+    "name": "Lal Mirch Powder (200 gm)",
+    "type": "SPICES",
+    "priceperkg": " 76.00",
+    "desc": ""
+  },
+  {
+    "name": "Mirch Kutti (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 52.25",
+    "desc": ""
+  },
+  {
+    "name": "Haldi Powder (200 gm )",
+    "type": "SPICES",
+    "priceperkg": " 61.75",
+    "desc": ""
+  },
+  {
+    "name": "Kali Mirch Powder (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 130.00",
+    "desc": ""
+  },
+  {
+    "name": "Amchur Powder (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 71.25",
+    "desc": ""
+  },
+  {
+    "name": "Kasuri Methi (50 gm)",
+    "type": "SPICES",
+    "priceperkg": " 33.25",
+    "desc": ""
+  },
+  {
+    "name": "Degi Mirch (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Kitchen King (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Garam Masala-Krishidham (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 80.75",
+    "desc": ""
+  },
+  {
+    "name": "Rajma Masala (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Chana Masala  (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Dal Makhni Masala  (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 71.25",
+    "desc": ""
+  },
+  {
+    "name": "Shahi Paneer Masala (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 71.25",
+    "desc": ""
+  },
+  {
+    "name": "Sambhar Masala  (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 61.75",
+    "desc": ""
+  },
+  {
+    "name": "Pav Bhaji Masala (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 61.75",
+    "desc": ""
+  },
+  {
+    "name": "Anardana Powder (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 114.00",
+    "desc": ""
+  },
+  {
+    "name": "Hing  (10 gm)",
+    "type": "SPICES",
+    "priceperkg": " 57.00",
+    "desc": ""
+  },
+  {
+    "name": "Jeera (200 gm)",
+    "type": "SPICES",
+    "priceperkg": " 85.50",
+    "desc": ""
+  },
+  {
+    "name": "Ajwain (100 gm )",
+    "type": "SPICES",
+    "priceperkg": " 42.75",
+    "desc": ""
+  },
+  {
+    "name": "Lal Mirch Sabut  (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 42.75",
+    "desc": ""
+  },
+  {
+    "name": "Dhania Sabut (200 gm)",
+    "type": "SPICES",
+    "priceperkg": " 66.50",
+    "desc": ""
+  },
+  {
+    "name": "Kali Mirch Sabut (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 123.50",
+    "desc": ""
+  },
+  {
+    "name": "Green Cardamom (50 gm)",
+    "type": "SPICES",
+    "priceperkg": " 237.50",
+    "desc": ""
+  },
+  {
+    "name": "Black Cardomom (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 123.50",
+    "desc": ""
+  },
+  {
+    "name": "Rai (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 28.50",
+    "desc": ""
+  },
+  {
+    "name": "Sarson Black (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 28.50",
+    "desc": ""
+  },
+  {
+    "name": "Sarson yellow (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 28.50",
+    "desc": ""
+  },
+  {
+    "name": "Methi Dana (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 33.25",
+    "desc": ""
+  },
+  {
+    "name": "Tez patta (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 33.25",
+    "desc": ""
+  },
+  {
+    "name": "Dalchini (50 gm)",
+    "type": "SPICES",
+    "priceperkg": " 52.25",
+    "desc": ""
+  },
+  {
+    "name": "Laung (50 gm)",
+    "type": "SPICES",
+    "priceperkg": " 52.25",
+    "desc": ""
+  },
+  {
+    "name": "Saunf (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 33.25",
+    "desc": ""
+  },
+  {
+    "name": "Imli (200 gm)",
+    "type": "SPICES",
+    "priceperkg": " 52.25",
+    "desc": ""
+  },
+  {
+    "name": "Black Salt (200 gm)",
+    "type": "SPICES",
+    "priceperkg": " 23.75",
+    "desc": ""
+  },
+  {
+    "name": "Sendha Salt (1 kg)",
+    "type": "SPICES",
+    "priceperkg": " 61.75",
+    "desc": ""
+  },
+  {
+    "name": "Premium Sugar (1 Kg)",
+    "type": "SPICES",
+    "priceperkg": " 52.25",
+    "desc": ""
+  },
+  {
+    "name": "Premium Desi Khand (500 gm)",
+    "type": "SPICES",
+    "priceperkg": " 90.25",
+    "desc": ""
+  },
+  {
+    "name": "Premium Shakkar (500 gm)",
+    "type": "SPICES",
+    "priceperkg": " 38.00",
+    "desc": ""
+  },
+  {
+    "name": "Sat Kali Mirch  (200 gm )",
+    "type": "SPICES",
+    "priceperkg": " 189.05",
+    "desc": ""
+  },
+  {
+    "name": "Sat Kali Mirch  (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 103.55",
+    "desc": ""
+  },
+  {
+    "name": "Sat Haldi  (250 gm )",
+    "type": "SPICES",
+    "priceperkg": " 116.85",
+    "desc": ""
+  },
+  {
+    "name": "Sat Haldi  (100 gm )",
+    "type": "SPICES",
+    "priceperkg": " 46.55",
+    "desc": ""
+  },
+  {
+    "name": "Sat Jeera  (250 gm )",
+    "type": "SPICES",
+    "priceperkg": " 141.55",
+    "desc": ""
+  },
+  {
+    "name": "Sat Jeera  (100gm )",
+    "type": "SPICES",
+    "priceperkg": " 56.05",
+    "desc": ""
+  },
+  {
+    "name": "Sat Elaichi  (20 gm)",
+    "type": "SPICES",
+    "priceperkg": " 122.55",
+    "desc": ""
+  },
+  {
+    "name": "Garam Masala  (100 gm )",
+    "type": "SPICES",
+    "priceperkg": " 123.50",
+    "desc": ""
+  },
+  {
+    "name": "Garam Masla (Whole) (100 gm)",
+    "type": "SPICES",
+    "priceperkg": " 114.00",
+    "desc": ""
+  },
+  {
+    "name": "California Almond (250 gm)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 200.00",
+    "desc": ""
+  },
+  {
+    "name": "Breakfast Mix (Seeds and fruits) (1 kg)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 1,200.00",
+    "desc": ""
+  },
+  {
+    "name": "Walnut with shell (1 kg)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 750.00",
+    "desc": ""
+  },
+  {
+    "name": "Premium Walnut (250 gm)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 427.50",
+    "desc": ""
+  },
+  {
+    "name": "Premium Cashew (250 gm)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 300.00",
+    "desc": ""
+  },
+  {
+    "name": "Premium Raisins (250 gm)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 200.00",
+    "desc": ""
+  },
+  {
+    "name": "Raisins (Indian) (250 gm)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 150.00",
+    "desc": ""
+  },
+  {
+    "name": "Premium Anjeer (250 gm )",
+    "type": "DRY FRUITS",
+    "priceperkg": " 450.00",
+    "desc": ""
+  },
+  {
+    "name": "Premium Pistachio (250 gm)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 300.00",
+    "desc": ""
+  },
+  {
+    "name": "Dehydrated Fruits (1 kg)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 1,000.00",
+    "desc": ""
+  },
+  {
+    "name": "Mix Berries (1 kg)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 1,000.00",
+    "desc": ""
+  },
+  {
+    "name": "Makhana (Small) (250 gm)",
+    "type": "DRY FRUITS",
+    "priceperkg": " 175.00",
+    "desc": ""
+  },
+  {
+    "name": "Desi Ghee (1 Litre)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 560.50",
+    "desc": ""
+  },
+  {
+    "name": "Mustard Oil Black (O) (1 Litre)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 284.05",
+    "desc": ""
+  },
+  {
+    "name": "Mustard Oil Yellow (1 Litre)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 266.00",
+    "desc": ""
+  },
+  {
+    "name": "Sesame Oil ( O) (1 Litre)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 475.95",
+    "desc": ""
+  },
+  {
+    "name": "Refined Sunflower (O) (1 Litre)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 313.50",
+    "desc": ""
+  },
+  {
+    "name": "Ground Nut Oil (1 Litre)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 350.55",
+    "desc": ""
+  },
+  {
+    "name": "Sesame Oil ( O) (500 gm)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 265.05",
+    "desc": ""
+  },
+  {
+    "name": "Ground Nut Oil (O) (500 gm)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 219.45",
+    "desc": ""
+  },
+  {
+    "name": "Coconut Oil (O) (500 gm)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 322.05",
+    "desc": ""
+  },
+  {
+    "name": "Mustard Oil (O) CP (5 Litre )",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 1,391.75",
+    "desc": ""
+  },
+  {
+    "name": "Sunflower Oil  (5 Litre )",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 1,520.00",
+    "desc": ""
+  },
+  {
+    "name": "A2 Ghee (N&L) (350 gm)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 498.75",
+    "desc": ""
+  },
+  {
+    "name": "Desi Ghee (N&L) (500 gm)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 560.50",
+    "desc": ""
+  },
+  {
+    "name": "Organic Ghee (1 Litre)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 1,021.25",
+    "desc": ""
+  },
+  {
+    "name": "Desi Ghee Organic (N&L) (400 gm)",
+    "type": "GHEE AND OIL",
+    "priceperkg": " 427.50",
+    "desc": ""
+  },
+  {
+    "name": "Rice (Karnal) (1 kg )",
+    "type": "RICE",
+    "priceperkg": " 105.00",
+    "desc": ""
+  },
+  {
+    "name": "Rice (Dehradun) (1 kg )",
+    "type": "RICE",
+    "priceperkg": " 95.00",
+    "desc": ""
+  },
+  {
+    "name": "Rice (Karnal) (5 kg )",
+    "type": "RICE",
+    "priceperkg": " 525.00",
+    "desc": ""
+  },
+  {
+    "name": "Rice (Dehradun) (5 kg )",
+    "type": "RICE",
+    "priceperkg": " 475.00",
+    "desc": ""
+  },
+  {
+    "name": "Rice Basmati (Pona) (1 kg )",
+    "type": "RICE",
+    "priceperkg": " 75.00",
+    "desc": ""
+  },
+  {
+    "name": "Rice Basmati (Tukda) (1 kg)",
+    "type": "RICE",
+    "priceperkg": " 60.00",
+    "desc": ""
+  },
+  {
+    "name": "Rice (Parmal) (1 kg )",
+    "type": "RICE",
+    "priceperkg": " 55.00",
+    "desc": ""
+  },
+  {
+    "name": "Rice Golden sella  (1 kg )",
+    "type": "RICE",
+    "priceperkg": " 120.00",
+    "desc": ""
+  },
+  {
+    "name": "Rice Flour (1 kg )",
+    "type": "RICE",
+    "priceperkg": " 55.00",
+    "desc": ""
+  },
+  {
+    "name": "Brown Rice (India Gate)  (1 kg )",
+    "type": "RICE",
+    "priceperkg": " 143.00",
+    "desc": ""
+  },
+  {
+    "name": "Brown Rice (Dawat)         (1 kg )",
+    "type": "RICE",
+    "priceperkg": " 165.00",
+    "desc": ""
+  },
+  {
+    "name": "Brown Rice (Loose) (1 Kg )",
+    "type": "RICE",
+    "priceperkg": " 120.00",
+    "desc": ""
+  },
+  {
+    "name": "Sona Massori (1 Kg)",
+    "type": "RICE",
+    "priceperkg": " 60.00",
+    "desc": ""
+  },
+  {
+    "name": "Amla Murabba (Wark) (900 gm )",
+    "type": "MURABBA'S & MAKHANA",
+    "priceperkg": " 313.50",
+    "desc": ""
+  },
+  {
+    "name": "Amla Murabba (900 gm )",
+    "type": "MURABBA'S & MAKHANA",
+    "priceperkg": " 304.00",
+    "desc": ""
+  },
+  {
+    "name": "Mix Murabba  (900 gm)",
+    "type": "MURABBA'S & MAKHANA",
+    "priceperkg": " 250.00",
+    "desc": ""
+  },
+  {
+    "name": "Amla Candy (Chatpata) (250 gm)",
+    "type": "MURABBA'S & MAKHANA",
+    "priceperkg": " 156.75",
+    "desc": ""
+  },
+  {
+    "name": "Amla Candy (Sweet) (250 gm)",
+    "type": "MURABBA'S & MAKHANA",
+    "priceperkg": " 156.75",
+    "desc": ""
+  },
+  {
+    "name": "Bhel Candy (Sweet) (250 gm )",
+    "type": "MURABBA'S & MAKHANA",
+    "priceperkg": " 171.00",
+    "desc": ""
+  },
+  {
+    "name": "Makhana (Small) (250 gm)",
+    "type": "MURABBA'S & MAKHANA",
+    "priceperkg": " 175.00",
+    "desc": ""
+  },
+  {
+    "name": "Premium Makhana (250 gm)",
+    "type": "MURABBA'S & MAKHANA",
+    "priceperkg": " 261.25",
+    "desc": ""
+  },
+  {
+    "name": "Millet (Little) (500 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 100.00",
+    "desc": ""
+  },
+  {
+    "name": "Millet (Kudo) (500 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 100.00",
+    "desc": ""
+  },
+  {
+    "name": "Millet (Barnyard) (500 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 100.00",
+    "desc": ""
+  },
+  {
+    "name": "Millet (Foxtail) (500 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 100.00",
+    "desc": ""
+  },
+  {
+    "name": "Millet (Browntop) (500 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 175.00",
+    "desc": ""
+  },
+  {
+    "name": "Quinoa (Loose) (1 kg)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 237.50",
+    "desc": ""
+  },
+  {
+    "name": "Quinoa (Organic) N&L (500 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 213.75",
+    "desc": ""
+  },
+  {
+    "name": "Chia Seeds  (250 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 200.00",
+    "desc": ""
+  },
+  {
+    "name": "Watermelon seeds(250 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 175.00",
+    "desc": ""
+  },
+  {
+    "name": "MP Sharabati",
+    "type": "atta",
+   
+    "priceperkg":48,
+     "desc": ""
+  },
+  {
+    "name": "3 Grain",
+    "type": "multigrainatta",
+    "priceperg":"300gm/100",
+    "priceperkg" : 65 ,
+     "desc": "Wheat(600 gm), Makka(200 gm),Bajara(200 gm)"
+    },
+  {
+    "name": "6 Grain",
+    "type": "multigrainatta",
+    "priceperkg" : 80,
+     "desc": "Wheat(500 gm),Makka(150 gm),Bajara(150 gm),Jwar(100 gm),Barley(50 gm),Soya Bean(50 gm)"
+  },
+  {
+    "name": "7 Grain",
+    "type": "multigrainatta",
+    "priceperkg" : 85,
+     "desc": "Wheat(400 gm),Makka(150 gm),Bajara(150 gm),Jwar(100 gm),Barley(50 gm),Soya Bean(50 gm),Channa Dal(100gm)"
+  },
+  {
+    "name": "8 Grain",
+    "type": "multigrainatta",
+    "priceperkg" : 95,
+     "desc": "Wheat (400 gm),Bajara(100 gm),Jwar(Sorghum)(100 gm),Barley(100 gm),SoyaBean (100 gm),Channa Dal(100 gm),Ragi(50 gm),Oats(50 gm)"
+  },
+  {
+    "name": "9 Grain",
+    "type": "multigrainatta",
+    "priceperkg" : 120,
+     "desc": "Wheat(400 gm),Makka(50 gm),Bajara(50 gm),Buckwheat(100 gm),Barley(50 gm),Soya Bean(100 gm),Channa Dal(100 gm),Ragi(50 gm),Oats(100 gm)"
+  },
+  {
+    "name": "Wheat Based Low GI Atta",
+    "type": "specialatta",
+    "priceperkg" : 85,
+    "desc": ""
+  },
+  {
+    "name": "Non Wheat Low GI Atta",
+    "type": "specialatta",
+    "priceperkg" : 95,
+    "desc":""
+  },
+  {
+    "name": "High Protein Atta",
+    "type": "specialatta",
+    "priceperkg" : 85,
+    "desc":""
+  },
+  {
+    "name": "Black Wheat Atta",
+    "type": "specialatta",
+    "priceperkg" : 100,
+    "desc":""
+  },
+  {
+    "name": "MP Grade 2",
+    "type": "atta",
+    "priceperkg" : 42,
+    "desc":""
+  },
+  {
+    "name": "Soyabean Atta",
+    "type": "atta",
+    "priceperkg" : 145,
+    "desc":""
+  },
+  {
+    "name": "Chana Atta",
+    "type": "atta",
+    "priceperkg" : 100,
+    "desc":""
+  },
+  {
+    "name": "Ragi Atta",
+    "type": "atta",
+    "priceperkg" : 90,
+    "desc":""
+  },
+{
+    "name": "Oats Atta",
+    "type": "atta",
+    "priceperkg" : 220,
+    "desc":""
+  },
+  {
+    "name": "Jau Atta(Barley)",
+    "type": "atta",
+    "priceperkg" : 60,
+    "desc":""
+  },{
+    "name": "Jwar Atta",
+    "type": "atta",
+    "priceperkg" : 60,
+    "desc":""
+  },{
+    "name": "Amaranthus Atta",
+    "type": "atta",
+    "priceperkg" : 220,
+    "desc":""
+  },
+  {
+    "name": "Kuttu Atta",
+    "type": "atta",
+    "priceperkg" : 180,
+    "desc":""
+  },
+  {
+    "name": "Sattu Barley(jau)",
+    "type": "atta",
+    "priceperkg" : 180,
+    "desc":""
+  },
+  {
+    "name": "Channa Sattu",
+    "type": "atta",
+    "priceperkg" : 220,
+    "desc":""
+  },
+  {
+    "name": "Singadha Atta(Seasonal)",
+    "type": "atta",
+    "priceperkg" : 300,
+    "desc":""
+  },
+  {
+    "name": "Makka Atta",
+    "type": "atta",
+    "priceperkg" : 55,
+    "desc":""
+  },
+  {
+    "name" : "Bajra Atta",
+    "type": "atta",
+    "priceperkg" :55,
+    "desc":""
+  },
+  {
+    "name": "Sunflower Seeds(250 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 200.00",
+    "desc": ""
+  },
+  {
+    "name": "Pumpkin Seeds (250 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 200.00",
+    "desc": ""
+  },
+  {
+    "name": "Flax Seeds(250 gm)",
+    "type": "SUPER FOODS & SEEDS",
+    "priceperkg": " 75.00",
+    "desc": ""
+  },
+  {
+    "name": "Devbhumi (Organic)(500 gm)",
+    "type": "HONEY",
+    "priceperkg": " 451.25",
+    "desc": ""
+  },
+  {
+    "name": "Devbhumi (Pahari)(500 gm)",
+    "type": "HONEY",
+    "priceperkg": " 275.50",
+    "desc": ""
+  },
+  {
+    "name": "Devbhumi (Pahari)(250 gm )",
+    "type": "HONEY",
+    "priceperkg": " 161.50",
+    "desc": ""
+  },
+  {
+    "name": "Organic Rawforest(250 gm)",
+    "type": "HONEY",
+    "priceperkg": " 327.75",
+    "desc": ""
+  },
+  {
+    "name": "Organic Saffron(250 gm)",
+    "type": "HONEY",
+    "priceperkg": " 470.25",
+    "desc": ""
+  },
+  {
+    "name": "Organic White Himalayan(250 gm)",
+    "type": "HONEY",
+    "priceperkg": " 375.25",
+    "desc": ""
+  },
+  {
+    "name": "Saffron (1gm)(1gm)",
+    "type": "HONEY",
+    "priceperkg": " 266.00",
+    "desc": ""
+  },
+  {
+    "name": "Saffron Organic Kashmiri(1 gm)",
+    "type": "HONEY",
+    "priceperkg": " 375.25",
+    "desc": ""
+  },
+  {
+    "name": "Kishmiri Kahwa (Organic)(85 gm)",
+    "type": "TEA AND COFFEE",
+    "priceperkg": " 327.75",
+    "desc": ""
+  },
+  {
+    "name": "Tea Girnar Detox(36 pcs)",
+    "type": "TEA AND COFFEE",
+    "priceperkg": " 313.50",
+    "desc": ""
+  },
+  {
+    "name": "Sneh Herbal Lemontea(25 pcs)",
+    "type": "TEA AND COFFEE",
+    "priceperkg": " 171.00",
+    "desc": ""
+  },
+  {
+    "name": "Sneh Lemontea S Free(25 pcs)",
+    "type": "TEA AND COFFEE",
+    "priceperkg": " 180.50",
+    "desc": ""
+  },
+  {
+    "name": "Girnar Kashmiri Khawa(5 pcs)",
+    "type": "TEA AND COFFEE",
+    "priceperkg": " 71.25",
+    "desc": ""
+  },
+  {
+    "name": "Girnar Royal Cup Tea(250gm)",
+    "type": "TEA AND COFFEE",
+    "priceperkg": " 128.25",
+    "desc": ""
+  },
+  {
+    "name": "Girnar Coffee(50 gm )",
+    "type": "TEA AND COFFEE",
+    "priceperkg": " 123.50",
+    "desc": ""
+  },
+  {
+    "name": "Aam Ka Achaar(500 gm)",
+    "type": "ACHAAR",
+    "priceperkg": " 114.00",
+    "desc": ""
+  },
+  {
+    "name": "Mirch Ka Achaar(500 gm)",
+    "type": "ACHAAR",
+    "priceperkg": " 152.00",
+    "desc": ""
+  },
+  {
+    "name": "Mirch Ka Achaar (Cut)(500 gm)",
+    "type": "ACHAAR",
+    "priceperkg": " 133.00",
+    "desc": ""
+  },
+  {
+    "name": "Nimbu Ka Achaar(500 gm)",
+    "type": "ACHAAR",
+    "priceperkg": " 152.00",
+    "desc": ""
+  },
+  {
+    "name": "Lehsun Ka Achaar(500 gm)",
+    "type": "ACHAAR",
+    "priceperkg": " 171.00",
+    "desc": ""
+  },
+  {
+    "name": "Peanut Butter (1 kg)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 470.25",
+    "desc": ""
+  },
+  {
+    "name": "Peanut Butter Chocolate(1kg)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 266.00",
+    "desc": ""
+  },
+  {
+    "name": "Peanut Butter Creamy(500 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 251.75",
+    "desc": ""
+  },
+  {
+    "name": "Peanut Butter Crunchy(500 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 251.75",
+    "desc": ""
+  },
+  {
+    "name": "BB Quinoa Chocos(250 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 285.00",
+    "desc": ""
+  },
+  {
+    "name": "Oats Muesli (350 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 379.05",
+    "desc": ""
+  },
+  {
+    "name": "Quinoa Muesli(400 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 379.05",
+    "desc": ""
+  },
+  {
+    "name": "Strawberry Muesli(400 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 332.50",
+    "desc": ""
+  },
+  {
+    "name": "Jumbo Oats (500 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 150.00",
+    "desc": ""
+  },
+  {
+    "name": "Oats Flakes (250 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 99.00",
+    "desc": ""
+  },
+  {
+    "name": "Garlic Toast (200 gm )",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 100.00",
+    "desc": ""
+  },
+  {
+    "name": "Banana Chips (150 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 90.00",
+    "desc": ""
+  },
+  {
+    "name": "Oats Cookies (280 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 110.00",
+    "desc": ""
+  },
+  {
+    "name": "Atta Cookies (400 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 110.00",
+    "desc": ""
+  },
+  {
+    "name": "Kuttu Atta Cookies(300 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 100.00",
+    "desc": ""
+  },
+  {
+    "name": "Dehraduni RusK(300 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 110.00",
+    "desc": ""
+  },
+  {
+    "name": "Dehraduni Saunf Rusk(300 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 110.00",
+    "desc": ""
+  },
+  {
+    "name": "Sugar Free Rusk(300 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 110.00",
+    "desc": ""
+  },
+  {
+    "name": "Wheat Puff (200 gm )",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 90.00",
+    "desc": ""
+  },
+  {
+    "name": "Wheat Puff Namkeen (330 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 90.00",
+    "desc": ""
+  },
+  {
+    "name": "All Rosted Namkeen (330 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 90.00",
+    "desc": ""
+  },
+  {
+    "name": "Soya Katori (200 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 60.00",
+    "desc": ""
+  },
+  {
+    "name": "Soya Masala (200 gm )",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 60.00",
+    "desc": ""
+  },
+  {
+    "name": "Dates Pickle (200 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 200.00",
+    "desc": ""
+  },
+  {
+    "name": "Fard Dates (500 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 243.00",
+    "desc": ""
+  },
+  {
+    "name": "Lemon Squash(825 ml)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 210.00",
+    "desc": ""
+  },
+  {
+    "name": "Lavash (Multigrain)(200 gm )",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 120.00",
+    "desc": ""
+  },
+  {
+    "name": "Chana Jhor (150 gm)",
+    "type": "COOKIES AND SNACKS",
+    "priceperkg": " 90.00",
+    "desc": ""
+  },
+  {
+    "name": "Urad Papad (1 pc)",
+    "type": "LIJJAT PAPAD",
+    "priceperkg": " 64.00",
+    "desc": ""
+  },
+  {
+    "name": "Special Urad Papad (1 pc)",
+    "type": "LIJJAT PAPAD",
+    "priceperkg": " 76.00",
+    "desc": ""
+  },
+  {
+    "name": "Moong Papad (1 pc)",
+    "type": "LIJJAT PAPAD",
+    "priceperkg": " 64.00",
+    "desc": ""
+  },
+  {
+    "name": "Garlic Papad (1 pc)",
+    "type": "LIJJAT PAPAD",
+    "priceperkg": " 64.00",
+    "desc": ""
+  },
+  {
+    "name": "Jeera Papad (1 pc)",
+    "type": "LIJJAT PAPAD",
+    "priceperkg": " 64.00",
+    "desc": ""
+  },
+  {
+    "name": "Punjabi Masala Papad (1 pc)",
+    "type": "LIJJAT PAPAD",
+    "priceperkg": " 76.00",
+    "desc": ""
+  }
+]
