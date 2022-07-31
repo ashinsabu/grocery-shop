@@ -28,14 +28,15 @@ Step 5: Demo the app by entering the following into your browser's address bar "
 
 # Technologies used
 
-<img display ="inline" src = "https://user-images.githubusercontent.com/25181517/117447535-f00a3a00-af3d-11eb-89bf-45aaf56dbaf1.png" height="50px" width ="50px">
-<img display ="inline" src="https://user-images.githubusercontent.com/25181517/117447663-0fa16280-af3e-11eb-8677-bcf8e4f8e298.png" height="50px" width ="50px">
-<img display ="inline" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" height="50px" width ="50px">
-<img display ="inline" src="https://user-images.githubusercontent.com/25181517/121402101-c89df700-c959-11eb-8b4a-bbadf9e84b30.png" height="50px" width ="50px">
-<img display ="inline" src="https://cdn-icons-png.flaticon.com/512/919/919825.png" height="50px" width ="50px">
-<img display ="inline" src="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?fit=500%2C500&ssl=1" height="50px" width ="50px">
-<img display ="inline" src="https://cdn.iconscout.com/icon/free/png-256/mongodb-226029.png" height="50px" width ="50px">
-
+<p float = "left">
+<img display ="inline" src = "https://user-images.githubusercontent.com/25181517/117447535-f00a3a00-af3d-11eb-89bf-45aaf56dbaf1.png" height="64px" width ="64px">
+<img display ="inline" src="https://user-images.githubusercontent.com/25181517/117447663-0fa16280-af3e-11eb-8677-bcf8e4f8e298.png" height="64px" width ="64px">
+<img display ="inline" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" height="64px" width ="64px">
+<img display ="inline" src="https://user-images.githubusercontent.com/25181517/121402101-c89df700-c959-11eb-8b4a-bbadf9e84b30.png" height="64px" width ="64px">
+<img display ="inline" src="https://cdn-icons-png.flaticon.com/512/919/919825.png" height="64px" width ="64px">
+<img display ="inline" src="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?fit=500%2C500&ssl=1" height="64px" width ="64px">
+<img display ="inline" src="https://cdn.iconscout.com/icon/free/png-256/mongodb-226029.png" height="64px" width ="64px">
+</p>
 # API's used
 Razorpay, MongoDB Atlas
 
