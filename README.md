@@ -37,6 +37,10 @@ Step 5: Demo the app by entering the following into your browser's address bar "
 <img display ="inline" src="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/07/handlebars-js.png?fit=500%2C500&ssl=1" height="64px" width ="64px">
 <img display ="inline" src="https://cdn.iconscout.com/icon/free/png-256/mongodb-226029.png" height="64px" width ="64px">
 </p>
+
+(HTML(Handlebars), CSS, Javascript, Bootstrap, NodeJS, ExpressJS, MongoDB)
+
+
 # API's used
 Razorpay, MongoDB Atlas
 
