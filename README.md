@@ -2,7 +2,7 @@
 
 A full stack Javascript SPA grocery shopping page built without the help of any JS frameworks.
 Minimal usage of anchor tags and new page reloading in order to minimize load times between different features of app.
-
+<a href ="https://order.chakki.co.in/">Live Here</a> :point-left:
 # How to run the app locally on your device
 
 Step 1: Clone the repository into your device by using the command: 
